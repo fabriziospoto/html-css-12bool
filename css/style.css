@@ -1,3 +1,67 @@
+.container {
+    width: 1170px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: white;
+    background: url('https://www.boolean.careers/images/common/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .row {
     height: 70px;
+}
+
+.border {
+    border: 5px solid grey;
+}
+
+.bl-none {
+    border-top: 5px solid grey;
+    border-right: 5px solid grey;
+    border-bottom: 5px solid grey;
+}
+
+.br-none {
+    border-top: 5px solid grey;
+    border-left: 5px solid grey;
+    border-bottom: 5px solid grey;
+}
+
+.bcg-1 {
+    background-image: linear-gradient(to right, #7E3517 , #8A4117);
+}
+
+.bcg-2 {
+    background-image: linear-gradient(to left, #7E3817 , #C35817);
+}
+
+.hole {
+    background-color: rgba(98,98,0,0.0);
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col-md-0.border {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background: url('https://www.boolean.careers/images/common/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+    }
+
+    .col-xs-0.border {
+        border: none;
+    }
 }
